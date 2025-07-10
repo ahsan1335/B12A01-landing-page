@@ -7,8 +7,15 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.raleway-sans-serif {
+  font-family: 'Raleway', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* shared styles */
 .primary-btn {
+  font-family: 'Inter', sans-serif;
   padding: 12px 36px;
   background-color: #4e47ff;
   color: #fff;
@@ -33,6 +40,7 @@ body {
   padding: 50px 100px;
 }
 .nav-title {
+  font-family: 'Inter', sans-serif;
   font-size: 34px;
   color: #4e47ff;
 }
@@ -49,6 +57,40 @@ body {
   color: #252432;
   margin-bottom: 30px;
 }
-.banner .primary-btn{
+.banner .primary-btn {
   margin-bottom: 100px;
+}
+
+/* start action section */
+.action {
+  display: flex;
+  max-width: 1140px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 100px;
+  margin-bottom: 70px;
+}
+.left-action {
+  width: 500px;
+  height: 200px;
+}
+.left-action h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+.left-action h4 {
+  font-size: 20px;
+  color: #979797;
+  margin: 20px 0 25px 0;
+  display: block;
+  text-align: left;
+}
+.right-action img {
+  width: 380px;
+  height: 305px;
+  border-radius: 50px;
+}
+.action .primary-btn {
+  display: inline-block;
 }
