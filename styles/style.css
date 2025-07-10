@@ -94,3 +94,36 @@ body {
 .action .primary-btn {
   display: inline-block;
 }
+
+/* start productive user section */
+.pro-user {
+  background-color: #dcdbf7;
+  max-width: 1140px;
+  height: 290px;
+  margin: 0 100px;
+  text-align: center;
+  padding: 0 100px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+}
+.pro-user h2 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 50px;
+}
+.pro-user-details {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  /* margin: 0 auto; */
+  align-items: center;
+  justify-content: space-between;
+}
+.pro-user-details span {
+  font-size: 60px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+.pro-user-details p{
+  font-size: 14px;
+  color: #726f6f;
+}
