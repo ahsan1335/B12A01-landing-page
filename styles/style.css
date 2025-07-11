@@ -49,6 +49,7 @@ body {
 .nav-title {
   font-family: 'Inter', sans-serif;
   font-size: 34px;
+  font-weight: 900;
   color: #4e47ff;
 }
 
@@ -121,7 +122,6 @@ body {
 .pro-user-details {
   font-family: 'Inter', sans-serif;
   display: flex;
-  /* margin: 0 auto; */
   align-items: center;
   justify-content: space-between;
 }
@@ -249,19 +249,19 @@ body {
 .in-touch-right {
   width: 35%;
   margin: 20px auto;
-  /* padding: 10px; */
   text-align: left;
 }
-
-.child-form {
+.parent-form {
   width: 100%;
+}
+.child-form {
   margin-bottom: 15px;
   font-family: 'Inter', sans-serif;
 }
 .child-form label {
   display: block;
-  margin-bottom: 5px;
   font-size: 14px;
+  margin-bottom: 5px;
 }
 .child-form input,
 .child-form textarea {
@@ -276,10 +276,10 @@ body {
 }
 .child-form textarea {
   font-family: 'Inter', sans-serif;
-  height: 70px;
+  height: 75px;
 }
 .child-form .primary-btn {
-  width: 390px;  /*width 100% not working, I don't know why */
+  width: 115%;     /*   ? width 100% not working, I don't know why */
 }
 
 /* start footer section */
@@ -296,6 +296,7 @@ body {
 .footer-title h1 {
   font-family: 'Inter', sans-serif;
   font-size: 80px;
+  font-weight: 900;
   color: #4e47ff;
 }
 .footer-title p {
