@@ -38,7 +38,6 @@ body {
 .header {
   background-image: url(../Assets/Hero-bg.png);
   background-repeat: no-repeat;
-  max-width: 1140px;
   margin: 0 auto;
 }
 .header nav {
@@ -135,6 +134,66 @@ body {
   font-size: 14px;
   color: #726f6f;
 }
+
+/* start user feedback section */
+.user-feedback{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 100px;
+  margin-bottom: 80px;
+}
+.user-feedback .feedback-title{
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.user-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cards{
+  background-color: #fff;
+  padding: 20px 55px 20px 20px;
+  margin: 10px;
+  border-radius: 12px;
+  border: 1px solid #dcdbf7;
+}
+.cards .stars{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.cards h4{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.cards h6{
+  font-size: 14px;
+  color: #3c3c3c;
+  margin-bottom: 20px;
+}
+.reviewer-container{
+  display: flex;
+}
+.reviewer-container img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.reviewer p{
+  font-size: 11px;
+  font-weight: bold;
+  color: #757575;
+  margin-bottom: 10px;
+}
+.reviewer span{
+  font-size: 12px;
+  color: #B3B3B3;
+}
+
 
 /* start get in touch section */
 .in-touch {
