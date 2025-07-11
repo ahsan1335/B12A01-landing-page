@@ -105,7 +105,7 @@ body {
 
 /* start productive user section */
 .pro-user {
-  background-color: #CFD0E4;
+  background-color: #cfd0e4;
   max-width: 1140px;
   height: 300px;
   margin: 0 100px;
@@ -279,7 +279,7 @@ body {
   height: 75px;
 }
 .child-form .primary-btn {
-  width: 115%;     /*   ? width 100% not working, I don't know why */
+  width: 115%; /*   ? width 100% not working, I don't know why */
 }
 
 /* start footer section */
